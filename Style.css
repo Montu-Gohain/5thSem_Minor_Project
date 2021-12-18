@@ -17,12 +17,9 @@
     min-height: 8vh;
 	margin-top: 10px;
  	font-family: 'Poppins', sans-serif; 
-	background-color: rgba(190, 190, 209, 0.089);
 
  }
- .intro {
-	font-style: oblique;
-}
+
 
  .logo {
 	 color: rgb(214, 212, 212);
@@ -45,7 +42,7 @@
  }
 
  .nav-links a{
-	color: rgb(202, 202, 202);
+	color: rgb(255, 255, 255);
 	padding: 10px;
 	 text-decoration: none;
 	 letter-spacing: 1px;
@@ -61,9 +58,9 @@
 	 /* font-weight: bold ; */
 	 /* padding: 10px; */
 	/* background-image: linear-gradient(to bottom, #4ca1af  0%, #c4e0e5 100%); */
+	color: rgb(0, 219, 248);
 	
-	background-color: rgb(231, 3, 3);
-	border-radius: 2px;
+	background-color: rgba(231, 3, 3, 0);
 
  }
 
@@ -87,18 +84,31 @@
 }
 .intro{
 	display: flex;
-	color: white;
+	color: rgb(0, 255, 106);
 	text-align: center;
 	width: 1110px;
-	font-size: 10em;
+	font-size:120px;
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	font-family: 'Bahnschrift Condensed';
+	top: 100;
+	left: 50px;
+	font-family: 'Chakra Petch', sans-serif;
 	left: -100%;
 	animation: anim3 4s forwards 1s;
 	cursor: pointer;
+	font-style: normal;
 }
+.intro .about{
+	display: flex;
+	color: burlywood;
+	position: absolute;
+	margin-top: 100px;
+	top: 400;
+	font-size:20px;
+
+}
+
 @keyframes anim3 {
 	from{
 		left: -100%;
@@ -322,18 +332,7 @@ footer .wave#wave4
 	border-radius: 15px;
 
  }
-.intro{
-	display: flex;
-	color: white;
-	text-align: center;
-	width: 350px;
-	font-size: 70px;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	margin-top: 200px;
-	font-family: 'Bahnschrift Condensed';
-}	
+	
  }
  .nav-active {
 	 transform:translateX(0%)
@@ -365,12 +364,16 @@ footer .wave#wave4
     font-size: 2.5em;
     font-family: 'Road Rage', cursive;
 	color:rgb(31, 29, 29);
-	background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+	background-image: linear-gradient(to left, rgba(221, 236, 224, 0.76) 10%, rgb(70, 69, 69));
 	border-radius: 10px;
 	padding: 2px;
  }
 
  /*Todo:  This is the animation part */
+ .animg
+ {
+	margin-left: 250px;
+ }
  #box1 {
 	width: 530px;
 	height: 625px;
